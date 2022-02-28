@@ -1,7 +1,6 @@
 <!--
-    Sarah Myerson
-    02/15/2022
-    CIS 4004
+    Sarah Myerson - 02/15/2022
+    Home page
 -->
 
 <!DOCTYPE html>
@@ -11,11 +10,88 @@
     <title>Coffee Hub</title>
   </head>
   <body>
-    <nav>
-      <span>Coffee Hub</span>
-      <a href="./index.html">Home</a>
-      <a href="./html/products.html">Products</a>
-      <a href="./html/contact-us.html">Contact Us</a>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <span><strong>Coffee Hub</strong></span>
+      <a href="index.html">Home</a>
+      <a href="html/products.html">Products</a>
+      <a href="html/contact-us.html">Contact Us</a>
+      <hr/>
     </nav>
+
+    <!-- Header and grabber -->
+    <div style="text-align: center;">
+      <h1>Coffee Hub is for Coffee Lovers</h1>
+      <h2 style="font-size: 16px;">A small town experience with big city beans</h2>
+    </div>
+
+    <hr/>
+
+    <!-- Our story section -->
+    <div>
+      <h2 style="text-decoration-line: underline;">Our Story</h2>
+      <div class="row" style="content: ''; display: table; clear: both;">
+        <div class="column" style="float: left; width: 50%;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada venenatis mollis. Morbi tempor libero in neque accumsan, vitae ultrices justo volutpat. Sed efficitur euismod sem. Vestibulum fermentum tempor dignissim. Nullam ac varius lorem. Ut et lorem sed est viverra accumsan. Nunc hendrerit vel leo eu feugiat. Nullam in posuere velit. Aenean sodales tempor consectetur. Etiam non pharetra dolor, vitae hendrerit nisi. Ut ultricies erat vel aliquam molestie. Vivamus non dui dolor.</p>
+        </div>
+
+        <!-- Video container -->
+        <div class="column" style="float: left; width: 50%;">
+          <video width="320" height="180" autoplay muted loop>
+            <source src="video/hero_video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our coffee section -->
+    <div>
+      <h2 style="text-decoration-line: underline;">Our Coffee</h2>
+      <div class="row" style="content: ''; display: table; clear: both;">
+
+        <!-- Image container -->
+        <div class="column" style="float: left; width: 50%;">
+          <img src="images/latte-cups.jpg" alt="Two people with lattes." width="360" height="250">
+        </div>
+
+        <div class="column" style="float: left; width: 50%;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rhoncus mi. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vitae malesuada eros, tincidunt dignissim velit. Donec nec ligula purus. Vestibulum tincidunt magna eu est molestie, quis faucibus urna aliquam. Phasellus fermentum augue vel consequat dictum. Integer posuere tellus nisl. Curabitur ultrices rutrum auctor. Pellentesque in mauris a arcu faucibus vulputate vitae sed sapien. Nulla congue fermentum lacus vitae volutpat. Etiam eget ipsum sagittis, pellentesque felis vitae, volutpat magna. Cras congue enim eu ante feugiat lacinia. <a href="html/products.html">Learn more...</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div>
+      <h2 style="text-decoration-line: underline;">What our Customers Are Saying</h2>
+
+      <div class="quote-block" style="padding: 0px 100px;">
+        <p class="quote-paragraph">
+          <q>Sed tristique magna a placerat congue. Mauris ut tellus hendrerit, rhoncus lectus at, imperdiet orci. Integer aliquet rhoncus posuere. Praesent lacinia dui lorem, eget consectetur nisi faucibus ac.</q>
+          <em>- Tony Stark</em>
+        </p>
+
+        <p class="quote-paragraph">
+          <q>Praesent sed nulla in erat rutrum placerat at quis urna. Donec rutrum, sapien vel elementum viverra, sem mauris tempor neque, et malesuada tortor neque eget mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</q>
+          <em>- Miss Piggy</em>
+        </p>
+
+        <p class="quote-paragraph">
+          <q>Etiam tincidunt est sem, et gravida lorem aliquam quis. Sed dapibus at neque nec tincidunt. Maecenas aliquam, augue in interdum tincidunt, diam arcu sodales sem, vitae porttitor elit augue vitae dolor.</q>
+          <em>- Luke Skywalker</em>
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <hr/>
+      <nav class="footer-nav" style="text-align: center;">
+        <a href="index.html">Home</a>
+        <a href="html/products.html">Products</a>
+        <a href="html/contact-us.html">Contact Us</a>
+      </nav>
+
+      <p style="text-align: center;">&copy; Coffee Hub, Inc. 2022.</p>
+    </footer>
   </body>
 </html>
